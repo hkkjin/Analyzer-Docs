@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SC Analyzer'
-copyright = '2018, HK, TS'
-author = 'HK, TS'
+project = 'Spike Cluster Analyzer'
+copyright = '2018, HK, TG'
+author = 'HK, TG'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.04'
 
 
 # -- General configuration ---------------------------------------------------
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SCAnalyzerdoc'
+htmlhelp_basename = 'SpikeClusterAnalyzerdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SCAnalyzer.tex', 'SC Analyzer Documentation',
-     'HK, TS', 'manual'),
+    (master_doc, 'SpikeClusterAnalyzer.tex', 'Spike Cluster Analyzer Documentation',
+     'HK, TG', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'scanalyzer', 'SC Analyzer Documentation',
+    (master_doc, 'spikeclusteranalyzer', 'Spike Cluster Analyzer Documentation',
      [author], 1)
 ]
 
@@ -149,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SCAnalyzer', 'SC Analyzer Documentation',
-     author, 'SCAnalyzer', 'One line description of project.',
+    (master_doc, 'SpikeClusterAnalyzer', 'Spike Cluster Analyzer Documentation',
+     author, 'SpikeClusterAnalyzer', 'One line description of project.',
      'Miscellaneous'),
 ]
 
