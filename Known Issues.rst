@@ -1,14 +1,8 @@
 Known Issues
 ------------
 
-Top Feature Requests
-^^^^^^^^^^^^^^^^^^^^
-
-1. During **AnalysisB**, a back/previous button to go back to the previous cluster would be helpful. 
-
-
-Other Requests
-^^^^^^^^^^^^^^
+Requests
+^^^^^^^^
 
 1. When the new cluster file is being saved, it should default to the location where the original recording file was located since they both need to be in the same folder.
 
