@@ -1,8 +1,8 @@
 Getting Started
-^^^^^^^^^^^^^^^
+---------------
 
-**Installation**
-
+Installation
+^^^^^^^^^^^^
 
   1. Install a full version of MATLAB_
 
@@ -44,8 +44,8 @@ Getting Started
 
   ..
 
-**Preparing files for analysis**
-
+Preparing files for analysis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is for anyone who has analysis files from using the `2013 Analyzer`_ and wishes to do further analysis or adjustments of the clusters found previously.
 
