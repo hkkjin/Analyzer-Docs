@@ -1,5 +1,5 @@
 Initial Cluster Detection
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 `If you have analysis pre-existing from the 2013 Analyzer`_
 
