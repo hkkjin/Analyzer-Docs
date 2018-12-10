@@ -12,9 +12,19 @@ Version History
 Instruction Manual Version History
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+**Version 1.01**
+
+*12/9/18*
+
+Updated **Step1** under *Initial Analysis*
+
+Reorganized information to follow a more logical progression
+
+Minor Edits
+
 **Version 1.00**
 
-**12/7/18**
+*12/7/18*
 
 First version published to ReadtheDocs
 
@@ -41,7 +51,8 @@ Fixed the problem where during **AnalysisB** the modified thresholds for the clu
 
 
 **Version 1.02**
-
+
+
 *12/6/18*
 
 
@@ -58,8 +69,10 @@ The errors are currently still the same as 1.01:
 
 
 **Version 1.01**
-
-*12/5/18*
+
+
+
+*12/5/18*
 
 
 
