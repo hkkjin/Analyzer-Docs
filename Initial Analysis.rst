@@ -103,9 +103,9 @@ Initial analysis
 
   ..
 
-  9. Click **Step1**. Set number of points as the number of data points that should have been sampled during the recording (at a sampling rate of 1000 Hz, this should be 3600 sec times 1000 = 3.6e6). When the processing is done, there should now be a _\cluster file for each recording file located inside a folder called *Step1_Channel_##_yourname*
+  9. Click **Step1**. WARNING: Make sure that channels match or else the wrong data will be analyzed. Name the folder as desired, and the number of points can be left blank. When the processing is done, there should now be a _\cluster file for each recording file located inside a folder called *Step1_Channel_##_yourname*
 
-  ..
+  .. Set number of points as the number of data points that should have been sampled during the recording (at a sampling rate of 1000 Hz, this should be 3600 sec times 1000 = 3.6e6). 
 
   10. At this point, each recording's set of detected clusters can be checked and adjusted manually using the **Refine** feature (described in step 7 and onwards in the previous section) 
 
