@@ -1,6 +1,6 @@
 Related Studies
-===============
+---------------
 
-Placeholder page
+Coming soon, maybe
 
 
