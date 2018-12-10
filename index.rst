@@ -41,9 +41,11 @@ Introduction
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
    Background
    Related Studies
+   
 
 Instruction Manual
 ------------------
@@ -58,8 +60,8 @@ Instruction Manual
    Spike Analysis
 
 
-Troubleshooting
----------------
+Updates and Help
+----------------
 
 .. toctree::
    :maxdepth: 2
@@ -68,8 +70,6 @@ Troubleshooting
    Troubleshooting     
    Known Issues
    Version History
-
-
 
 
 Acknowledgements
