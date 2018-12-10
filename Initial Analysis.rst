@@ -136,7 +136,7 @@ Initial Cluster Detection
 
       Note2 - paired spikes are set by *spike max dist* as the maximum distance between positive and negative spike to be counted as a single spike 
       
-      Note3 - dominant clusters are defined as the overlap set of clusters defined by *overlap cond* (overlap condition, which is any combination of **ps**, **ng**, and **pr** and *overlap thr* (overlap threshold, which is the percentage over overlap allowed)
+      Note3 - dominant clusters are defined as the overlap set of clusters defined by *overlap cond* (overlap condition, which is any combination of **ps**, **ng**, and **pr**) and *overlap thr* (overlap threshold, which is the percentage over overlap necessary in order to be counted)
   
   11. At this point, each recording's set of detected clusters can be checked and adjusted manually using the **Refine** feature (described in step 7 and onwards in the previous section), and then can be run through secondary analysis. 
 
