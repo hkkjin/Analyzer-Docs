@@ -8,7 +8,8 @@ Initial Cluster Detection
 
 .. _If you have analysis pre-existing from the 2013 Analyzer:
 
-**Using analysis output from the 2013 Analyzer**
+Using analysis output from the 2013 Analyzer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   .. line 79
      
@@ -62,8 +63,8 @@ Initial Cluster Detection
 
 .. _If you have not yet analyzed your EEG recording file:
 
-**Using new EEG recordings**
-
+Using new EEG recordings
+^^^^^^^^^^^^^^^^^^^^^^^^
   ..  
 
   1. Load recording (.mat) file, making sure **load cluster data** is unchecked
