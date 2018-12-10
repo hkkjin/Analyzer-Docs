@@ -34,13 +34,13 @@ Getting Started
 
   .. _repository:
 
-  .. 3. Drag and drop the entire unzipped folder directly into Documents>>MATLAB which should have been created after installing Matlab.
+  .. 3. Drag and drop the entire unzipped folder directly into ~/Documents/MATLAB/ which should have been created after installing Matlab.
 
   3. Within MATLAB, add all folders except command_line to the path. Then open MATLAB>>SpikeClusterAnalyzer>>GUI.
 
   .. line 46
 
-  4. Launch "analyzer" from MATLAB command line.
+  4. Launch *analyzer* from MATLAB command line.
 
   ..
 
