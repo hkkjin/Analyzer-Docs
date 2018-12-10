@@ -130,7 +130,7 @@ Initial Cluster Detection
 
       **vdom** - dominant cluster
       
-      **fvdom** - filtered dominant cluster
+      **vfdom** - filtered dominant cluster
 
       Note1 - the length of short clusters is defined under *min cluster duration* (ms)
 
