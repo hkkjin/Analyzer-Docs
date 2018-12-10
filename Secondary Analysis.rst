@@ -1,5 +1,5 @@
 Secondary Analysis
-^^^^^^^^^^^^^^^^^^
+------------------
 
 Once a cluster file (_cluster.mat) has been made for a specific recording, this next analysis is run in order to set the spike detection thresholds for individual seizures and output information regarding all spikes within each cluster. This can be done using **AnalysisB**.
 
