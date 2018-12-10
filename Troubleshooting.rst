@@ -38,7 +38,7 @@ At the moment the best way to solve incidental errors is to reboot the analyzer.
 
   ..
 
-  5. Click on **ps** to view the previously saved clusters
+  5. Click on **ps** and other categories to view the previously saved clusters
 
   ..
 
