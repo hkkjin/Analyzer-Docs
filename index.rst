@@ -22,8 +22,8 @@ This document is in its very early stages and will be updated as more features o
 
 ..
 
-**Main Features**
-
+Main Features
+^^^^^^^^^^^^^
 
 Among many other functions, the Spike Cluster Analyzer is able to:
 
@@ -37,7 +37,7 @@ Among many other functions, the Spike Cluster Analyzer is able to:
 
 
 Introduction
-^^^^^^^^^^^^
+------------
 
 .. toctree::
    :maxdepth: 2
