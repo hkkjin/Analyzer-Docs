@@ -1,5 +1,5 @@
 Troubleshooting
-^^^^^^^^^^^^^^^
+---------------
 
 **For updating Spike Cluster Analyzer**
 
