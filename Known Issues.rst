@@ -20,4 +20,3 @@ Known Issues
 
 ..
 
-2. For analyzing a file with no pre-analysis, clicking on Step1 caused an error.
