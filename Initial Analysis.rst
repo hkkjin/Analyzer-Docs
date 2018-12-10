@@ -138,6 +138,6 @@ Initial Cluster Detection
       
       Note3 - dominant clusters are defined as the overlap set of clusters defined by *overlap cond* (overlap condition, which is any combination of **ps**, **ng**, and **pr** and *overlap thr* (overlap threshold, which is the percentage over overlap allowed)
   
-    11. At this point, each recording's set of detected clusters can be checked and adjusted manually using the **Refine** feature (described in step 7 and onwards in the previous section), and then can be run through secondary analysis. 
+  11. At this point, each recording's set of detected clusters can be checked and adjusted manually using the **Refine** feature (described in step 7 and onwards in the previous section), and then can be run through secondary analysis. 
 
 
