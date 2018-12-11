@@ -12,7 +12,7 @@ The Spike Cluster Analyzer
 Overview
 ^^^^^^^^
 
-The Spike Cluster Analyzer, first developed in TG's thesis and improved upon based on multiple projects ongoing in IS's lab, is a Matlab-based program that is made to analyze EEG data to identify spike clusters in samples obtained, for example, through the analyzer downloadable_ in CA and EKM's study, "Closed-Loop Optogenetic Intervention in Mice" (*Nature Protocols*, 2013). 
+The Spike Cluster Analyzer, first developed in TG's thesis and improved upon based on multiple projects ongoing in IS's lab, is a Matlab-based program that is made to analyze EEG data to identify spike clusters in samples obtained, for example, through the recorder downloadable_ in CA and EKM's study, "Closed-Loop Optogenetic Intervention in Mice" (*Nature Protocols*, 2013). 
 
 .. _downloadable: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3988315/
 
@@ -45,7 +45,7 @@ Introduction
 
    Background
    Related Studies
-   
+   Diagram   
 
 Instruction Manual
 ------------------

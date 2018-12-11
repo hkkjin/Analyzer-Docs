@@ -16,3 +16,6 @@ Once a cluster file (_cluster.mat) has been made for a specific recording, this 
   3. After the final cluster is adjusted, a plot will pop up showing all clusters overlaid onto the recording. This window can now be closed and the next recording can be opened for analysis.
 
 
+
+
+

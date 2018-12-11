@@ -12,6 +12,17 @@ Version History
 Instruction Manual Version History
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+**Version 1.05**
+
+*12/11/18*
+
+Added a glossary under the page "Spike Cluster Analyzer UI"
+
+Added some information to "Cross Analysis"
+
+Modified how to run the program with the new version
+
+
 **Version 1.01**
 
 *12/9/18*
@@ -36,29 +47,26 @@ Analyzer Version History
 
 *(This will not be totally up to date and more based on usage than actual changes to coding)*
 
-**Version 1.04**
+**Version 12/11/18**
 
-*12/7/18*
+Reorganized program into smaller number of folders
+
+Added feature to go back during **AnalysisB**
+
+
+**Version 12/7/18**
 
 Fixed the problem where creating a credential file saved the .cre file into the GUI Settings folder
 
 
-**Version 1.03**
-
-*12/7/18*
+**Version 12/7/18**
 
 Fixed the problem where during **AnalysisB** the modified thresholds for the cluster are not carried over to the next cluster.
 
 
-**Version 1.02**
+**Version 12/6/18**
 
-
-*12/6/18*
-
-
-
-
-This is the version that should be standardized between all new users.
+First release, this is the version that should be standardized between all new users.
 
 
 The errors are currently still the same as 1.01:
@@ -68,19 +76,9 @@ The errors are currently still the same as 1.01:
 2. The credential file still creates to within the Matlab folder (not good since the matlab folder with the program shouldn't be altered)
 
 
-**Version 1.01**
-
-
-
-*12/5/18*
-
-
-
-
+**Version 12/5/18*
 
 Fixed: New clusters can now be added prior to the first or after the last cluster overlaid from an Excel data sheet
-
-
 
 
 A few more issues:
@@ -90,14 +88,7 @@ A few more issues:
 2. The credential file still creates to within the Matlab folder (not good since the matlab folder with the program shouldn't be altered)
 
 
-**Version 1.0**
-
-*12/4/18*
-
-
-
-
-
+**Version 12/4/18**
 
 This initial version of the SC Analyzer was used to overlay analysis output which had been cut and pasted from the original .txt output files to Excel. (to do this we used text to columns delimited by spaces)
 

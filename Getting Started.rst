@@ -36,11 +36,15 @@ Installation
 
   .. 3. Drag and drop the entire unzipped folder directly into ~/Documents/MATLAB/ which should have been created after installing Matlab.
 
-  3. Within MATLAB, add all folders within ~/MATLAB/SpikeClusterAnalyzer/ except command_line to the path. Then open MATLAB>>SpikeClusterAnalyzer>>GUI
+  3. Within MATLAB, type in (or copy and paste in)
+
+    ``>> addpath(genpath('.\Code\GUI\'), genpath('.\Code\common\'), genpath('.\Code\Osc_Spiketrain\'), genpath('.\Settings\'), genpath('.\Templates\'))``
 
   .. line 46
 
   4. Launch *analyzer* from MATLAB command line
+
+    ``>> analyzer``
 
   ..
 
