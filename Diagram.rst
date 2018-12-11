@@ -4,7 +4,7 @@ Spike Cluster Analyzer UI
 .. figure:: SCAnalyzerUI.png
    :height: 391px
    :width: 764px
-   :scale: 100%
+   :scale: 80%
    :align: center
 
 

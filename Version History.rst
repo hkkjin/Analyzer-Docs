@@ -76,7 +76,7 @@ The errors are currently still the same as 1.01:
 2. The credential file still creates to within the Matlab folder (not good since the matlab folder with the program shouldn't be altered)
 
 
-**Version 12/5/18*
+**Version 12/5/18**
 
 Fixed: New clusters can now be added prior to the first or after the last cluster overlaid from an Excel data sheet
 
