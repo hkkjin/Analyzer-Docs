@@ -14,6 +14,21 @@ Instruction Manual Version History
 
 **Version 1.05**
 
+*12/17/18*
+
+Added description of how to check for new version of SpikeClusterAnalyzer in *Getting Started*
+
+Added a warning that **cutoff high** must be below sampling rate of the recording in *Initial Analysis*
+
+Added some information into *Background*
+
+Added description of how to toggle the view of plot components under *Initial Analysis*
+
+Removed the *Known Issues* page for now
+
+
+**Version 1.04**
+
 *12/11/18*
 
 Added a glossary under the page "Spike Cluster Analyzer UI"

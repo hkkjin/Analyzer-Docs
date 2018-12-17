@@ -68,7 +68,6 @@ Updates and Help
    :titlesonly:
 
    Troubleshooting     
-   Known Issues
    Version History
 
 

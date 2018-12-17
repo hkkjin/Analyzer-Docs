@@ -8,9 +8,9 @@ Installation
 
   .. _MATLAB: https://www.mathworks.com/products/matlab.html
 
-  2. Using Git BASH or direct download, clone/download the SpikeClusterAnalyzer repository_ to the Documents>>MATLAB folder (link not available right now)
+  2. Using Git BASH or direct download, clone/download the `SpikeClusterAnalyzer repository`_ to the Documents>>MATLAB folder (link not available right now)
 
-  .. _repository:
+  .. _SpikeClusterAnalyzer repository:
 
   - To use Git BASH to clone the respository (recommended in order to have a more streamlined method of updating the program), download `Git for Windows`_
 
@@ -28,7 +28,11 @@ Installation
 
     ``$ cd Documents/MATLAB/SpikeClusterAnalyzer/``
 
-    then pull the new version:
+    You can check if you have the most current version or if there has been an update:
+
+    ``$ git remote -v update``  
+
+    then pull the new version if you need to update:
 
     ``$ git pull origin master``
 

@@ -29,11 +29,11 @@ Using analysis output from the 2013 Analyzer
 
   ..
 
-  5. Select a template, currently found in GUI>Others>test_data>template cluster file
+  5. Select a template, currently found in Template>template_cluster_file>template_cluster
 
   .. line 101
 
-  6. If this is done correctly, the program will begin processing
+  6. If this is done correctly, the program will begin processing. If there is no
 
   ..
 
@@ -55,7 +55,7 @@ Using analysis output from the 2013 Analyzer
       * *shift-doubleclick* in between markers to delete clusters
       * when finished, click **SaveCF** (save cluster file), and right click on **Refine** to turn the function off
 
-  11. Continue to secondary analysis of clusters
+  11. Continue to secondary analysis of clusters, or if you move onto a new recording, unclick *load cluster file* and open a new file.
 
   .. line 130
 
@@ -89,10 +89,13 @@ Using new EEG recordings
      - In the new window, click on the plots you wish to see, such as **Cluster Detection** and **Compare Clusters**, then close window
      - Click on **2) APPLY SET**
      - This should cause different plots showing clusters detected using different criteria. When finished, click **DelW** to close all plots
+     - To toggle on or off specific parts of the plots for easier viewing (for example, to remove the magenta colored rejection condition markers): on the plot you are viewing, go to the *View* pulldown menu and check *Plot Browser*. This opens up a *Plot Browser* menu that gives the ability to toggle on or off any component of the plot.
+
+     WARNING - **2) APPLY SET** gives an error if the *cutoff high* setting is equal to or higher than the sampling rate of the recording. For example, if your recording was made at 1000 Hz, then *cutoff high* should be set to a lower value, such as 400.  
 
   ..
 
-  6. If the results observed in the plots are satisfactory, click **3) SAVE SET** to save the settings and name the file with the subject ID (or any other name) and save to the same location as the recordings and credential file.  
+  6. If the results observed in the plots are satisfactory, click **3) SAVE SET** to save the settings and name the file with the subject ID (or any other name) and save to the same location as the recordings and credential file. It may be useful to check the settings on various windows in the same recording before moving on. 
 
   ..  
 
@@ -102,7 +105,7 @@ Using new EEG recordings
 
   .. 
 
-  8. Make sure the credentials (.cre), settings (.one), and all recording files for the same subject that you wish to analyze are in the same folder. (MAKE SURE THERE IS NO _\cluster FILE)
+  8. Make sure the credentials (.cre), settings (.one), and all recording files for the same subject that you wish to analyze are in the same folder. (MAKE SURE THERE ARE NO _\cluster FILES)
 
   ..
 
@@ -111,7 +114,7 @@ Using new EEG recordings
      .. 
   
      - WARNING 1: Make sure that the settings channel matches with the channel you are viewing or else the wrong data will be analyzed
-     - WARNING 2: It's recommended to uncheck all plots under **plot** (or click on **suppress plots**, once this is implemented) before running **Step1** as this will potentially create a very large number of plots and will be be extremely resource heavy
+     - WARNING 2: It's recommended to run **Step1** with no plots (uncheck all boxes under **plot**) as allowing plots will potentially create a very large number of plots and will be be extremely resource heavy. 
 
   .. Set number of points as the number of data points that should have been sampled during the recording (at a sampling rate of 1000 Hz, this should be 3600 sec times 1000 = 3.6e6). 
 
@@ -133,11 +136,11 @@ Using new EEG recordings
       
       **vfdom** - filtered dominant cluster
 
-      Note1 - the length of short clusters is defined under *min cluster duration* (ms)
+      Note 1 - the length of short clusters is defined under *min cluster duration* (ms)
 
-      Note2 - paired spikes are set by *spike max dist* as the maximum distance between positive and negative spike to be counted as a single spike 
+      Note 2 - paired spikes are set by *spike max dist* as the maximum distance between positive and negative spike to be counted as a single spike 
       
-      Note3 - dominant clusters are defined as the overlap set of clusters defined by *overlap cond* (overlap condition, which is any combination of **ps**, **ng**, and **pr**) and *overlap thr* (overlap threshold, which is the percentage over overlap necessary in order to be counted)
+      Note 3 - dominant clusters are defined as the overlap set of clusters defined by *overlap cond* (overlap condition, which is any combination of **ps**, **ng**, and **pr**) and *overlap thr* (overlap threshold, which is the percentage over overlap necessary in order to be counted)
   
   11. At this point, each recording's set of detected clusters can be checked and adjusted manually using the **Refine** feature (described in step 7 and onwards in the previous section), and then can be run through secondary analysis. 
 
